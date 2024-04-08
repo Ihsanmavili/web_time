@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto' , sans-serif;
+}
+
+body {
+   width: 100%;
+    min-height: 100vh;
+    background-color: aliceblue;
+    background-image: url(black.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    padding: 1rem;
+
+}
+
+p {
+    margin-bottom: 1rem;
+    font-size: 1.5rem;
+    font-weight: normal;
+    text-transform: uppercase;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #e8e8e8;
+}
+
+h1 {
+    margin-bottom: 5rem;
+    font-size: 3.5rem;
+    font-weight: lighter;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+ul{
+    display: flex;
+    justify-content: center;
+} 
+
+ul li {
+    list-style-type: none;
+    font-size: 1rem;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+li span {
+    display: block;
+    font-size: 6rem;
+    color: #9bf3ff
+}
+
+li.separator {
+    margin: 0 10px;
+    font-size: 6rem;
+    line-height: 1;
+    color: #b3f6ff
+}
+
+li:first-of-type {
+    margin-right: 5rem;
+}
+
+nav a{
+    text-decoration: none;
+    font-size: 1.5rem;
+    color: #00bfff
+
+}
+
+.social_links{
+    position: fixed;
+    bottom: 0;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1.5rem;
+}
+
+.social_links a {
+    color: inherit;
+    font-size: 2rem;
+}
+
